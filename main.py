@@ -2,7 +2,7 @@ import os
 from os import walk
 import shutil
 
-#creates a list of files without taking folders into consideration
+#creates a list of files ignoring folders
 filenames = next(walk("Directory"), (None, None, []))[2]
 original = r"directory"
 
