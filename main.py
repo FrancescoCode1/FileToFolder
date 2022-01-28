@@ -1,3 +1,7 @@
+"""
+This script scans for .mp4 or .mkv and puts them into a directory named after the file.
+Useful if you want to organize your Plex drive.
+"""
 import os
 from os import walk
 import shutil
